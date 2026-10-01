@@ -1,0 +1,19 @@
+{
+  "source": "video/0.mp4",
+  "sha256": "4EE8DFD4E7D59C21D066D5FE0E5677133ED31AA4FD315EAB81245E0674B8236A",
+  "sizeBytes": 27848420,
+  "durationSeconds": 20.813106,
+  "width": 720,
+  "height": 1280,
+  "videoCodec": "h264",
+  "nominalFps": 30,
+  "averageFpsRatio": "311500000/10406553",
+  "sourceFrames": 623,
+  "audio": {
+    "codec": "aac",
+    "sampleRate": 44100,
+    "channels": 2,
+    "durationSeconds": 20.805011,
+    "bitRate": 122822
+  }
+}

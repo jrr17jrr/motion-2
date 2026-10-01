@@ -1,0 +1,28 @@
+{
+  "name": "motion-2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Preparacao tecnica da edicao vertical em Remotion",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "compositions": "remotion compositions src/index.ts",
+    "probe": "remotion ffprobe -v error -show_format -show_streams -of json video/0.mp4",
+    "render:test": "remotion render src/index.ts VideoBase out/technical-test.mp4 --frames=0-89 --concurrency=2",
+    "render": "remotion render src/index.ts VideoBase out/video-base.mp4",
+    "render:final": "remotion render src/index.ts OticaDescontaoMotionV2 out/otica-descontao-motion-v2.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.531",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.531"
+  },
+  "devDependencies": {
+    "@remotion/install-whisper-cpp": "4.0.531",
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
