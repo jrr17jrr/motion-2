@@ -105,3 +105,12 @@ Montagem: `src/v5/timeline.ts`. Camera/SFX: `src/v5/direction.ts`.
 Audio derivado: `scripts/prepare-v5.py`; auditoria: `scripts/audit-v5.mjs`;
 revisao integral: `scripts/review-v5.py`. Assets: `video/assets/v5/`.
 Relatorio: `docs/edicao-otica-descontao-v5.md`.
+
+## Edicao Motion V6
+
+Composition `OticaDescontaoMotionV6`: `npm run render:v6`.
+Render: `out/otica-descontao-motion-v6.mp4`, 1080x1920, 30 FPS, 15,70 s.
+Pausa inicial encurtada, camera com sete punches principais, transicoes whip/zoom,
+musica dinamica mais presente e SFX sincronizados. Encerramento unico sem Freeze.
+Detalhes e limites da revisao: `docs/edicao-otica-descontao-v6.md`.
+Assets separados em `video/assets/v6/`; bruto e versoes anteriores preservados.

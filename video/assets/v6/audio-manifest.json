@@ -1,0 +1,118 @@
+{
+  "segments": [
+    {
+      "start": 48,
+      "end": 144,
+      "outputStart": 0
+    },
+    {
+      "start": 162,
+      "end": 321,
+      "outputStart": 96
+    },
+    {
+      "start": 390,
+      "end": 465,
+      "outputStart": 255
+    },
+    {
+      "start": 525,
+      "end": 606,
+      "outputStart": 330
+    }
+  ],
+  "footageFrames": 411,
+  "holdFrames": 0,
+  "outroFrames": 60,
+  "durationFrames": 471,
+  "musicBpm": 120,
+  "musicOrigin": "original synthesis; no external samples",
+  "musicRelativeToVoiceDuringSpeechDb": -15.22219968382711,
+  "sfx": [
+    {
+      "file": "impact-a",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 7.854
+    },
+    {
+      "file": "impact-b",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 1.0
+    },
+    {
+      "file": "impact-c",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 3.062
+    },
+    {
+      "file": "pop-a",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 1.542
+    },
+    {
+      "file": "pop-b",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 2.188
+    },
+    {
+      "file": "logo-pop",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 2.375
+    },
+    {
+      "file": "contact-pop",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 1.833
+    },
+    {
+      "file": "slide-a",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 107.167
+    },
+    {
+      "file": "cut-air",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 97.625
+    },
+    {
+      "file": "cut-air-b",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 82.188
+    },
+    {
+      "file": "riser-short",
+      "durationSeconds": 0.26666666666666666,
+      "peakOffsetMs": 247.562
+    },
+    {
+      "file": "resolve-v6",
+      "durationSeconds": 0.4,
+      "peakOffsetMs": 3.021
+    },
+    {
+      "file": "discover-swipe",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 100.0
+    },
+    {
+      "file": "cta-swipe",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 100.0
+    },
+    {
+      "file": "outro-air",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 100.0
+    },
+    {
+      "file": "detail-pop",
+      "durationSeconds": 0.18,
+      "peakOffsetMs": 1.833
+    },
+    {
+      "file": "whatsapp-hit",
+      "durationSeconds": 0.22,
+      "peakOffsetMs": 3.229
+    }
+  ]
+}

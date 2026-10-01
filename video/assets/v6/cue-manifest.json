@@ -1,0 +1,183 @@
+{
+  "springPeakOffsetFrames": 6,
+  "impacts": [
+    {
+      "wordFrame": 12,
+      "visualPeakFrame": 18,
+      "audioPeakFrame": 18,
+      "file": "impact-a"
+    },
+    {
+      "wordFrame": 51,
+      "visualPeakFrame": 57,
+      "audioPeakFrame": 57,
+      "file": "impact-b"
+    },
+    {
+      "wordFrame": 128,
+      "visualPeakFrame": 134,
+      "audioPeakFrame": 134,
+      "file": "pop-a"
+    },
+    {
+      "wordFrame": 190,
+      "visualPeakFrame": 196,
+      "audioPeakFrame": 196,
+      "file": "pop-b"
+    },
+    {
+      "wordFrame": 290,
+      "visualPeakFrame": 296,
+      "audioPeakFrame": 296,
+      "file": "impact-c"
+    },
+    {
+      "wordFrame": 358,
+      "visualPeakFrame": 364,
+      "audioPeakFrame": 364,
+      "file": "whatsapp-hit"
+    },
+    {
+      "wordFrame": 386,
+      "visualPeakFrame": 392,
+      "audioPeakFrame": 392,
+      "file": "resolve-v6"
+    }
+  ],
+  "cues": [
+    {
+      "frame": 18,
+      "file": "impact-a",
+      "volume": 1,
+      "reason": "óculos: shared text/camera overshoot",
+      "waveformPeakOffsetMs": 7.854,
+      "audioPeakFrame": 18
+    },
+    {
+      "frame": 28,
+      "file": "slide-a",
+      "volume": 0.85,
+      "reason": "novos: side entry and crop switch; waveform peaks 3 frames later",
+      "waveformPeakOffsetMs": 107.167,
+      "audioPeakFrame": 31
+    },
+    {
+      "frame": 57,
+      "file": "impact-b",
+      "volume": 1,
+      "reason": "menos: strongest opening punch",
+      "waveformPeakOffsetMs": 1,
+      "audioPeakFrame": 57
+    },
+    {
+      "frame": 93,
+      "file": "cut-air",
+      "volume": 0.95,
+      "reason": "frame 96 whip cut",
+      "waveformPeakOffsetMs": 97.625,
+      "audioPeakFrame": 95
+    },
+    {
+      "frame": 134,
+      "file": "pop-a",
+      "volume": 0.85,
+      "reason": "Descontão: word/camera spring peak",
+      "waveformPeakOffsetMs": 1.542,
+      "audioPeakFrame": 134
+    },
+    {
+      "frame": 196,
+      "file": "pop-b",
+      "volume": 0.9,
+      "reason": "estilos: left typography/right reframe",
+      "waveformPeakOffsetMs": 2.188,
+      "audioPeakFrame": 196
+    },
+    {
+      "frame": 242,
+      "file": "detail-pop",
+      "volume": 0.64,
+      "reason": "necessidade: compact overshoot",
+      "waveformPeakOffsetMs": 1.833,
+      "audioPeakFrame": 242
+    },
+    {
+      "frame": 253,
+      "file": "cut-air-b",
+      "volume": 0.9,
+      "reason": "frame 255 glasses entry zoom transition",
+      "waveformPeakOffsetMs": 82.188,
+      "audioPeakFrame": 255
+    },
+    {
+      "frame": 278,
+      "file": "discover-swipe",
+      "volume": 0.7,
+      "reason": "descobrir: text slides as framing closes",
+      "waveformPeakOffsetMs": 100,
+      "audioPeakFrame": 281
+    },
+    {
+      "frame": 296,
+      "file": "impact-c",
+      "volume": 0.95,
+      "reason": "quanto: camera and typography peak",
+      "waveformPeakOffsetMs": 3.062,
+      "audioPeakFrame": 296
+    },
+    {
+      "frame": 322,
+      "file": "riser-short",
+      "volume": 0.7,
+      "reason": "8-frame preparation into CTA shot",
+      "waveformPeakOffsetMs": 247.562,
+      "audioPeakFrame": 329
+    },
+    {
+      "frame": 327,
+      "file": "cta-swipe",
+      "volume": 0.92,
+      "reason": "frame 330 directional cut into final speech",
+      "waveformPeakOffsetMs": 100,
+      "audioPeakFrame": 330
+    },
+    {
+      "frame": 364,
+      "file": "whatsapp-hit",
+      "volume": 0.78,
+      "reason": "WhatsApp word and camera scale peak",
+      "waveformPeakOffsetMs": 3.229,
+      "audioPeakFrame": 364
+    },
+    {
+      "frame": 392,
+      "file": "resolve-v6",
+      "volume": 0.85,
+      "reason": "orçamento: final word impact and logo appearance",
+      "waveformPeakOffsetMs": 3.021,
+      "audioPeakFrame": 392
+    },
+    {
+      "frame": 402,
+      "file": "contact-pop",
+      "volume": 0.82,
+      "reason": "WhatsApp icon overshoot and number slide",
+      "waveformPeakOffsetMs": 1.833,
+      "audioPeakFrame": 402
+    },
+    {
+      "frame": 408,
+      "file": "outro-air",
+      "volume": 0.75,
+      "reason": "single exit of presenter into uninterrupted CTA",
+      "waveformPeakOffsetMs": 100,
+      "audioPeakFrame": 411
+    }
+  ],
+  "cameraScaleRange": [
+    1.025,
+    1.2426137555539
+  ],
+  "phoneVisibleFrames": 75,
+  "durationFrames": 471
+}

@@ -1,0 +1,186 @@
+{
+  "preMasterPeak": 0.85791015625,
+  "masterGain": 1,
+  "masterPeak": 0.85791015625,
+  "samples": 753600,
+  "durationSeconds": 15.7,
+  "sfxEvents": [
+    {
+      "frame": 18,
+      "file": "impact-a",
+      "volume": 1,
+      "reason": "\u00c3\u00b3culos: shared text/camera overshoot",
+      "waveformPeakOffsetMs": 7.854,
+      "audioPeakFrame": 18,
+      "effectPeak": 0.3399658203125,
+      "effectRms": 0.05452329135964955,
+      "localVoiceRms": 0.1642444622016925
+    },
+    {
+      "frame": 28,
+      "file": "slide-a",
+      "volume": 0.85,
+      "reason": "novos: side entry and crop switch; waveform peaks 3 frames later",
+      "waveformPeakOffsetMs": 107.167,
+      "audioPeakFrame": 31,
+      "effectPeak": 0.20399169921875,
+      "effectRms": 0.04000901098608511,
+      "localVoiceRms": 0.07516652225866893
+    },
+    {
+      "frame": 57,
+      "file": "impact-b",
+      "volume": 1,
+      "reason": "menos: strongest opening punch",
+      "waveformPeakOffsetMs": 1,
+      "audioPeakFrame": 57,
+      "effectPeak": 0.3399658203125,
+      "effectRms": 0.06488081740832137,
+      "localVoiceRms": 0.102867150193483
+    },
+    {
+      "frame": 93,
+      "file": "cut-air",
+      "volume": 0.95,
+      "reason": "frame 96 whip cut",
+      "waveformPeakOffsetMs": 97.625,
+      "audioPeakFrame": 95,
+      "effectPeak": 0.22799072265624998,
+      "effectRms": 0.04474938862280245,
+      "localVoiceRms": 0.009424556292680722
+    },
+    {
+      "frame": 134,
+      "file": "pop-a",
+      "volume": 0.85,
+      "reason": "Descont\u00c3\u00a3o: word/camera spring peak",
+      "waveformPeakOffsetMs": 1.542,
+      "audioPeakFrame": 134,
+      "effectPeak": 0.20399169921875,
+      "effectRms": 0.029539914552614493,
+      "localVoiceRms": 0.09530336211260582
+    },
+    {
+      "frame": 196,
+      "file": "pop-b",
+      "volume": 0.9,
+      "reason": "estilos: left typography/right reframe",
+      "waveformPeakOffsetMs": 2.188,
+      "audioPeakFrame": 196,
+      "effectPeak": 0.2159912109375,
+      "effectRms": 0.0339303396093855,
+      "localVoiceRms": 0.10635993795732397
+    },
+    {
+      "frame": 242,
+      "file": "detail-pop",
+      "volume": 0.64,
+      "reason": "necessidade: compact overshoot",
+      "waveformPeakOffsetMs": 1.833,
+      "audioPeakFrame": 242,
+      "effectPeak": 0.15359375,
+      "effectRms": 0.030262956967496292,
+      "localVoiceRms": 0.10317482797388876
+    },
+    {
+      "frame": 253,
+      "file": "cut-air-b",
+      "volume": 0.9,
+      "reason": "frame 255 glasses entry zoom transition",
+      "waveformPeakOffsetMs": 82.188,
+      "audioPeakFrame": 255,
+      "effectPeak": 0.2159912109375,
+      "effectRms": 0.045456232522280544,
+      "localVoiceRms": 0.0012338494666448692
+    },
+    {
+      "frame": 278,
+      "file": "discover-swipe",
+      "volume": 0.7,
+      "reason": "descobrir: text slides as framing closes",
+      "waveformPeakOffsetMs": 100,
+      "audioPeakFrame": 281,
+      "effectPeak": 0.16799316406249998,
+      "effectRms": 0.026266534428199068,
+      "localVoiceRms": 0.1294150724763972
+    },
+    {
+      "frame": 296,
+      "file": "impact-c",
+      "volume": 0.95,
+      "reason": "quanto: camera and typography peak",
+      "waveformPeakOffsetMs": 3.062,
+      "audioPeakFrame": 296,
+      "effectPeak": 0.322967529296875,
+      "effectRms": 0.05260700744112067,
+      "localVoiceRms": 0.13566869690339803
+    },
+    {
+      "frame": 322,
+      "file": "riser-short",
+      "volume": 0.7,
+      "reason": "8-frame preparation into CTA shot",
+      "waveformPeakOffsetMs": 247.562,
+      "audioPeakFrame": 329,
+      "effectPeak": 0.16799316406249998,
+      "effectRms": 0.02616104062496636,
+      "localVoiceRms": 0.005485984017188461
+    },
+    {
+      "frame": 327,
+      "file": "cta-swipe",
+      "volume": 0.92,
+      "reason": "frame 330 directional cut into final speech",
+      "waveformPeakOffsetMs": 100,
+      "audioPeakFrame": 330,
+      "effectPeak": 0.220791015625,
+      "effectRms": 0.039369384994680234,
+      "localVoiceRms": 0.0038071151786520175
+    },
+    {
+      "frame": 364,
+      "file": "whatsapp-hit",
+      "volume": 0.78,
+      "reason": "WhatsApp word and camera scale peak",
+      "waveformPeakOffsetMs": 3.229,
+      "audioPeakFrame": 364,
+      "effectPeak": 0.1871923828125,
+      "effectRms": 0.033182889185779996,
+      "localVoiceRms": 0.15346743304233793
+    },
+    {
+      "frame": 392,
+      "file": "resolve-v6",
+      "volume": 0.85,
+      "reason": "or\u00c3\u00a7amento: final word impact and logo appearance",
+      "waveformPeakOffsetMs": 3.021,
+      "audioPeakFrame": 392,
+      "effectPeak": 0.20399169921875,
+      "effectRms": 0.03921654761876678,
+      "localVoiceRms": 0.06015225007926859
+    },
+    {
+      "frame": 402,
+      "file": "contact-pop",
+      "volume": 0.82,
+      "reason": "WhatsApp icon overshoot and number slide",
+      "waveformPeakOffsetMs": 1.833,
+      "audioPeakFrame": 402,
+      "effectPeak": 0.1967919921875,
+      "effectRms": 0.035646238141747943,
+      "localVoiceRms": 0.010456078217940975
+    },
+    {
+      "frame": 408,
+      "file": "outro-air",
+      "volume": 0.75,
+      "reason": "single exit of presenter into uninterrupted CTA",
+      "waveformPeakOffsetMs": 100,
+      "audioPeakFrame": 411,
+      "effectPeak": 0.17999267578125,
+      "effectRms": 0.032587183164174395,
+      "localVoiceRms": 0.00039982431474913443
+    }
+  ],
+  "method": "waveform/level validation; no listening claim"
+}
