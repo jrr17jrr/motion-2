@@ -1,0 +1,92 @@
+{
+  "segments": [
+    {
+      "start": 48,
+      "end": 156,
+      "outputStart": 0
+    },
+    {
+      "start": 162,
+      "end": 321,
+      "outputStart": 108
+    },
+    {
+      "start": 390,
+      "end": 465,
+      "outputStart": 267
+    },
+    {
+      "start": 525,
+      "end": 623,
+      "outputStart": 342
+    }
+  ],
+  "footageFrames": 440,
+  "holdFrames": 36,
+  "durationFrames": 476,
+  "musicBpm": 120,
+  "musicOrigin": "original synthesis; no external samples",
+  "musicRelativeToVoiceDuringSpeechDb": -21.256355759845377,
+  "sfx": [
+    {
+      "file": "impact-a",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 7.896
+    },
+    {
+      "file": "impact-b",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 12.083
+    },
+    {
+      "file": "impact-c",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 6.083
+    },
+    {
+      "file": "pop-a",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 1.542
+    },
+    {
+      "file": "pop-b",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 2.188
+    },
+    {
+      "file": "logo-pop",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 2.375
+    },
+    {
+      "file": "contact-pop",
+      "durationSeconds": 0.26,
+      "peakOffsetMs": 1.833
+    },
+    {
+      "file": "slide-a",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 93.812
+    },
+    {
+      "file": "cut-air",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 126.667
+    },
+    {
+      "file": "cut-air-b",
+      "durationSeconds": 0.2,
+      "peakOffsetMs": 88.75
+    },
+    {
+      "file": "riser-short",
+      "durationSeconds": 0.26666666666666666,
+      "peakOffsetMs": 246.708
+    },
+    {
+      "file": "resolve-v5",
+      "durationSeconds": 0.4,
+      "peakOffsetMs": 3.021
+    }
+  ]
+}

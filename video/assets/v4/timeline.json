@@ -1,0 +1,35 @@
+{
+  "segments": [
+    {
+      "sourceStart": 1.6,
+      "sourceEnd": 5.2,
+      "outputStart": 0.0,
+      "frames": 108
+    },
+    {
+      "sourceStart": 5.633333333333334,
+      "sourceEnd": 11.533333333333333,
+      "outputStart": 3.6,
+      "frames": 177
+    },
+    {
+      "sourceStart": 13.266666666666667,
+      "sourceEnd": 16.0,
+      "outputStart": 9.5,
+      "frames": 82
+    },
+    {
+      "sourceStart": 17.566666666666666,
+      "sourceEnd": 20.766666666666666,
+      "outputStart": 12.233333333333333,
+      "frames": 96
+    }
+  ],
+  "durationFrames": 463,
+  "fps": 30,
+  "musicBpm": 120,
+  "musicOrigin": "original procedural composition; no third-party samples",
+  "voiceRms": 0.10323797662836727,
+  "musicRms": 0.013581349714281429,
+  "musicRelativeDb": -17.617931038132596
+}

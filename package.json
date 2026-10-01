@@ -10,10 +10,14 @@
     "probe": "remotion ffprobe -v error -show_format -show_streams -of json video/0.mp4",
     "render:test": "remotion render src/index.ts VideoBase out/technical-test.mp4 --frames=0-89 --concurrency=2",
     "render": "remotion render src/index.ts VideoBase out/video-base.mp4",
-    "render:final": "remotion render src/index.ts OticaDescontaoMotionV2 out/otica-descontao-motion-v2.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709"
+    "render:final": "remotion render src/index.ts OticaDescontaoMotionV2 out/otica-descontao-motion-v2.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709",
+    "render:v3": "remotion render src/index.ts OticaDescontaoMotionV3 out/otica-descontao-motion-v3.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709 --image-format=png",
+    "render:v4": "remotion render src/index.ts OticaDescontaoMotionV4 out/otica-descontao-motion-v4.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709 --image-format=png",
+    "render:v5": "remotion render src/index.ts OticaDescontaoMotionV5 out/otica-descontao-motion-v5.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709 --image-format=png"
   },
   "dependencies": {
     "@remotion/cli": "4.0.531",
+    "@remotion/motion-blur": "4.0.531",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "remotion": "4.0.531"

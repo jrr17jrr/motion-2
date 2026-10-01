@@ -1,0 +1,147 @@
+{
+  "springPeakOffsetFrames": 6,
+  "impacts": [
+    {
+      "wordFrame": 12,
+      "visualPeakFrame": 18,
+      "audioPeakFrame": 18,
+      "file": "impact-a"
+    },
+    {
+      "wordFrame": 51,
+      "visualPeakFrame": 57,
+      "audioPeakFrame": 57,
+      "file": "impact-b"
+    },
+    {
+      "wordFrame": 202,
+      "visualPeakFrame": 208,
+      "audioPeakFrame": 208,
+      "file": "pop-b"
+    },
+    {
+      "wordFrame": 302,
+      "visualPeakFrame": 308,
+      "audioPeakFrame": 308,
+      "file": "impact-c"
+    },
+    {
+      "wordFrame": 370,
+      "visualPeakFrame": 376,
+      "audioPeakFrame": 376,
+      "file": "contact-pop"
+    }
+  ],
+  "cues": [
+    {
+      "frame": 18,
+      "file": "impact-a",
+      "volume": 0.65,
+      "reason": "óculos: text and camera spring peak",
+      "waveformPeakOffsetMs": 7.896,
+      "audioPeakFrame": 18
+    },
+    {
+      "frame": 28,
+      "file": "slide-a",
+      "volume": 0.4,
+      "reason": "novos: lateral reveal peak on spring impact frame",
+      "waveformPeakOffsetMs": 93.812,
+      "audioPeakFrame": 30
+    },
+    {
+      "frame": 57,
+      "file": "impact-b",
+      "volume": 0.68,
+      "reason": "menos: main type and camera peak",
+      "waveformPeakOffsetMs": 12.083,
+      "audioPeakFrame": 57
+    },
+    {
+      "frame": 105,
+      "file": "cut-air",
+      "volume": 0.38,
+      "reason": "short cut bridge",
+      "waveformPeakOffsetMs": 126.667,
+      "audioPeakFrame": 108
+    },
+    {
+      "frame": 144,
+      "file": "pop-a",
+      "volume": 0.36,
+      "reason": "Descontão: emphasis",
+      "waveformPeakOffsetMs": 1.542,
+      "audioPeakFrame": 144
+    },
+    {
+      "frame": 208,
+      "file": "pop-b",
+      "volume": 0.56,
+      "reason": "estilos: scale peak",
+      "waveformPeakOffsetMs": 2.188,
+      "audioPeakFrame": 208
+    },
+    {
+      "frame": 265,
+      "file": "cut-air-b",
+      "volume": 0.36,
+      "reason": "glasses scene enters already in action; audio peak on frame 267",
+      "waveformPeakOffsetMs": 88.75,
+      "audioPeakFrame": 267
+    },
+    {
+      "frame": 308,
+      "file": "impact-c",
+      "volume": 0.58,
+      "reason": "quanto: camera/text peak",
+      "waveformPeakOffsetMs": 6.083,
+      "audioPeakFrame": 308
+    },
+    {
+      "frame": 334,
+      "file": "riser-short",
+      "volume": 0.3,
+      "reason": "CTA preparation",
+      "waveformPeakOffsetMs": 246.708,
+      "audioPeakFrame": 341
+    },
+    {
+      "frame": 339,
+      "file": "cut-air",
+      "volume": 0.4,
+      "reason": "CTA cut/reframe: whoosh peak on frame 342",
+      "waveformPeakOffsetMs": 126.667,
+      "audioPeakFrame": 342
+    },
+    {
+      "frame": 363,
+      "file": "logo-pop",
+      "volume": 0.32,
+      "reason": "official logo spring",
+      "waveformPeakOffsetMs": 2.375,
+      "audioPeakFrame": 363
+    },
+    {
+      "frame": 376,
+      "file": "contact-pop",
+      "volume": 0.5,
+      "reason": "contact scale peak",
+      "waveformPeakOffsetMs": 1.833,
+      "audioPeakFrame": 376
+    },
+    {
+      "frame": 404,
+      "file": "resolve-v5",
+      "volume": 0.45,
+      "reason": "orçamento impact",
+      "waveformPeakOffsetMs": 3.021,
+      "audioPeakFrame": 404
+    }
+  ],
+  "cameraScaleRange": [
+    1.04,
+    1.1994146595991753
+  ],
+  "phoneVisibleFrames": 106,
+  "durationFrames": 476
+}

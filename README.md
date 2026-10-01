@@ -67,3 +67,41 @@ Fonte Manrope e licenca OFL: `video/assets/fonts/`.
 Transcricao local: scripts `transcribe.mjs` e `refine-transcript.mjs` (modelos
 temporarios em `.cache`). Geracao sonora: `scripts/generate-audio.py`.
 Revisao tecnica: `scripts/review-render.py` (usa Python com NumPy e Pillow).
+
+## Edicao Motion V3
+
+Composition `OticaDescontaoMotionV3`: `npm run render:v3`.
+Render: `out/otica-descontao-motion-v3.mp4`, 1080x1920, 30 FPS, 625 frames.
+A timeline original continua integral, sem novos cortes ou alteracoes de velocidade.
+
+Direcao e revisao: `docs/edicao-otica-descontao-v3.md`.
+Camera e legendas: `src/v3/`. Composicao: `src/compositions/OticaDescontaoV3.tsx`.
+Logo oficial: `video/assets/brand/logo.png`, copia integral de `logo.png`.
+Matte e SFX derivados: `video/assets/v3/`. Revisao: `scripts/review-v3.py`.
+O motion blur usa `@remotion/motion-blur`, com a mesma versao do Remotion.
+
+## Edicao Motion V4
+
+Composition `OticaDescontaoMotionV4`: `npm run render:v4`.
+Render: `out/otica-descontao-motion-v4.mp4`, 1080x1920, 30 FPS, 463 frames.
+Esta versao aplica os microcortes autorizados em uma timeline derivada;
+`video/0.mp4`, V2, V3 e a referencia continuam intactos.
+
+Analise da referencia, montagem e revisao: `docs/edicao-otica-descontao-v4.md`.
+Nova logo oficial transparente: `logonova.png`, copiada integralmente para
+`video/assets/v4/logonova.png`. A V4 usa somente esta logo.
+Trilha original a 120 BPM com ducking e voz montada: `video/assets/v4/`.
+Preparacao: `scripts/prepare-v4.py`; revisao: `scripts/review-v4.py`.
+
+## Edicao Motion V5
+
+Composition `OticaDescontaoMotionV5`: `npm run render:v5`.
+Render separado: `out/otica-descontao-motion-v5.mp4`, 1080x1920, 30 FPS.
+Um unico sistema de texto funciona como legenda e tipografia cinetica, sem
+uma legenda inferior paralela. Entrada da cena de oculos remapeada para 8,9 s.
+CTA com `logonova.png`, icone oficial do WhatsApp e `(21) 99648-0818`.
+
+Montagem: `src/v5/timeline.ts`. Camera/SFX: `src/v5/direction.ts`.
+Audio derivado: `scripts/prepare-v5.py`; auditoria: `scripts/audit-v5.mjs`;
+revisao integral: `scripts/review-v5.py`. Assets: `video/assets/v5/`.
+Relatorio: `docs/edicao-otica-descontao-v5.md`.
