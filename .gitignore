@@ -1,5 +1,9 @@
 node_modules/
-out/
+out/*
+!out/otica-descontao-motion-v2.mp4
+!out/otica-descontao-motion-v3.mp4
+!out/otica-descontao-motion-v4.mp4
+!out/otica-descontao-motion-v5.mp4
 build/
 .cache/
 *.tsbuildinfo
