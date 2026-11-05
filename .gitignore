@@ -1,10 +1,15 @@
 node_modules/
+
 out/*
 !out/otica-descontao-motion-v2.mp4
 !out/otica-descontao-motion-v3.mp4
 !out/otica-descontao-motion-v4.mp4
 !out/otica-descontao-motion-v5.mp4
 !out/otica-descontao-motion-v6.mp4
+
+# Vídeos locais para edição pelo Claude
+/videoParaEditar/
+
 build/
 .cache/
 *.tsbuildinfo
