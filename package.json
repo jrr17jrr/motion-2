@@ -16,6 +16,7 @@
     "render:v5": "remotion render src/index.ts OticaDescontaoMotionV5 out/otica-descontao-motion-v5.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709 --image-format=png",
     "render:pv": "remotion render src/index.ts PlanoVisionarioV1 out/plano-visionario-editado-v1.mp4 --concurrency=4 --crf=17 --audio-bitrate=256k --color-space=bt709 --image-format=png",
     "render:pv2": "remotion render src/index.ts PlanoVisionarioV2 out/plano-visionario-edicao-sonora-v2.mp4 --concurrency=4 --crf=17 --audio-bitrate=256k --color-space=bt709 --image-format=png",
+    "render:pv3": "python scripts/mix-pv-v3.py && remotion render src/index.ts PlanoVisionarioV3 out/plano-visionario-edicao-sonora-reforcada-v3.mp4 --concurrency=4 --crf=17 --audio-bitrate=256k --color-space=bt709 --image-format=png",
     "render:v6":"remotion render src/index.ts OticaDescontaoMotionV6 out/otica-descontao-motion-v6.mp4 --concurrency=2 --crf=18 --audio-bitrate=192k --color-space=bt709 --image-format=png"
   },
   "dependencies": {

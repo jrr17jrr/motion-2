@@ -11,6 +11,7 @@ import {OticaDescontaoV5} from './compositions/OticaDescontaoV5';
 import {duration as durationV5} from './v5/timeline';
 import {PlanoVisionario} from './compositions/PlanoVisionario';
 import {DURATION as durationPV} from './pv/timeline';
+import {PlanoVisionarioV3} from './compositions/PlanoVisionarioV3';
 import {PlanoVisionarioV1SfxStem, PlanoVisionarioV2, PlanoVisionarioV2SfxStem} from './compositions/PlanoVisionarioV2';
 
 export const RemotionRoot = () => (
@@ -31,5 +32,6 @@ export const RemotionRoot = () => (
  <Composition id="PlanoVisionarioV1" component={PlanoVisionario} durationInFrames={durationPV} fps={30} width={1080} height={1920}/>
  <Composition id="PlanoVisionarioV2" component={PlanoVisionarioV2} durationInFrames={durationPV} fps={30} width={1080} height={1920}/>
  <Composition id="PlanoVisionarioV2SfxStem" component={PlanoVisionarioV2SfxStem} durationInFrames={durationPV} fps={30} width={1080} height={1920}/>
- <Composition id="PlanoVisionarioV1SfxStem" component={PlanoVisionarioV1SfxStem} durationInFrames={durationPV} fps={30} width={1080} height={1920}/></>
+ <Composition id="PlanoVisionarioV1SfxStem" component={PlanoVisionarioV1SfxStem} durationInFrames={durationPV} fps={30} width={1080} height={1920}/>
+ <Composition id="PlanoVisionarioV3" component={PlanoVisionarioV3} durationInFrames={durationPV} fps={30} width={1080} height={1920}/></>
 );

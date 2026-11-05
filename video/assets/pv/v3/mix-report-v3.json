@@ -1,0 +1,186 @@
+{
+ "events": [
+  {
+   "sfx": "hook-hit",
+   "peakFrame": 46,
+   "gain_dB": -4.0,
+   "why": "MAIS CLIENTES entra",
+   "startSec": 1.5279
+  },
+  {
+   "sfx": "title-swoosh",
+   "peakFrame": 132,
+   "gain_dB": -8.0,
+   "why": "PLANO VISIONÁRIO entra",
+   "startSec": 4.1873
+  },
+  {
+   "sfx": "title-pop",
+   "peakFrame": 150,
+   "gain_dB": -11.0,
+   "why": "linha ciano sob o título",
+   "startSec": 4.9963
+  },
+  {
+   "sfx": "bonus-swoosh",
+   "peakFrame": 242,
+   "gain_dB": -16.0,
+   "why": "rótulo SITE PROFISSIONAL (wipe)",
+   "startSec": 7.8382
+  },
+  {
+   "sfx": "price-blip",
+   "peakFrame": 301,
+   "gain_dB": -21.0,
+   "why": "R$ 250",
+   "startSec": 9.9687
+  },
+  {
+   "sfx": "bonus-swoosh",
+   "peakFrame": 359,
+   "gain_dB": -14.0,
+   "why": "rótulo TRÁFEGO PAGO (wipe)",
+   "startSec": 11.7382
+  },
+  {
+   "sfx": "price-click",
+   "peakFrame": 386,
+   "gain_dB": -7.0,
+   "why": "R$ 500",
+   "startSec": 12.8205
+  },
+  {
+   "sfx": "bonus-swoosh",
+   "peakFrame": 435,
+   "gain_dB": -16.0,
+   "why": "rótulo GESTÃO DE INSTAGRAM (wipe)",
+   "startSec": 14.2715
+  },
+  {
+   "sfx": "price-pop",
+   "peakFrame": 513,
+   "gain_dB": -8.5,
+   "why": "R$ 400",
+   "startSec": 17.0958
+  },
+  {
+   "sfx": "count-roll",
+   "peakFrame": "start 591",
+   "gain_dB": -9.0,
+   "why": "contagem 0 → 1.150 (frames 591–630)",
+   "startSec": 19.7
+  },
+  {
+   "sfx": "count-land",
+   "peakFrame": 630,
+   "gain_dB": -5.5,
+   "why": "chega em R$ 1.150",
+   "startSec": 20.997
+  },
+  {
+   "sfx": "strike-slash",
+   "peakFrame": 647,
+   "gain_dB": -5.5,
+   "why": "linha vermelha corta o 1.150",
+   "startSec": 21.5546
+  },
+  {
+   "sfx": "strike-swipe",
+   "peakFrame": 647,
+   "gain_dB": -6.5,
+   "why": "swipe rápido do corte",
+   "startSec": 21.47
+  },
+  {
+   "sfx": "exit-swoosh",
+   "peakFrame": 673,
+   "gain_dB": -15.0,
+   "why": "1.150 sai",
+   "startSec": 22.2709
+  },
+  {
+   "sfx": "offer-rise",
+   "peakFrame": 717,
+   "gain_dB": -17.0,
+   "why": "subida para o 697",
+   "startSec": 23.4414
+  },
+  {
+   "sfx": "offer-impact",
+   "peakFrame": 718,
+   "gain_dB": -15.0,
+   "why": "peso na entrada do 697",
+   "startSec": 23.9244
+  },
+  {
+   "sfx": "cash",
+   "peakFrame": 725,
+   "gain_dB": -3.5,
+   "why": "R$ 697 — CHA (subida) + CHING (pico do pop, respiro da fala)",
+   "startSec": 24.0167
+  },
+  {
+   "sfx": "coins",
+   "peakFrame": 731,
+   "gain_dB": -10.0,
+   "why": "R$ 697 — tilintar de moedas (respiro da fala)",
+   "startSec": 24.3667
+  },
+  {
+   "sfx": "bonus-sparkle",
+   "peakFrame": 811,
+   "gain_dB": -13.5,
+   "why": "PRIMEIRO MÊS",
+   "startSec": 26.9394
+  },
+  {
+   "sfx": "bonus-swoosh",
+   "peakFrame": 852,
+   "gain_dB": -12.5,
+   "why": "MOTION DESIGN",
+   "startSec": 28.1715
+  },
+  {
+   "sfx": "bonus-pop",
+   "peakFrame": 919,
+   "gain_dB": -4.0,
+   "why": "NOSSA MODELO",
+   "startSec": 30.6302
+  },
+  {
+   "sfx": "price-pop",
+   "peakFrame": 954,
+   "gain_dB": -11.0,
+   "why": "escolhe!",
+   "startSec": 31.7958
+  },
+  {
+   "sfx": "cta-rise",
+   "peakFrame": 1076,
+   "gain_dB": -11.0,
+   "why": "CHAME entra",
+   "startSec": 35.3318
+  },
+  {
+   "sfx": "cta-hit",
+   "peakFrame": 1088,
+   "gain_dB": -6.0,
+   "why": "WHATSAPP — destaque final",
+   "startSec": 36.2599
+  }
+ ],
+ "limiter": {
+  "ceiling_dBFS": -1.5,
+  "maxGainReduction_dB": 0.0,
+  "samplesLimited": 0,
+  "msLimited": 0.0
+ },
+ "master": {
+  "peak_dBFS": -3.74,
+  "clipped": 0
+ },
+ "sources": {
+  "cash-register-cc0.wav": "Freesound #209578 \"Cash Register Purchase\" by Zott820 — CC0 1.0 (https://freesound.org/people/Zott820/sounds/209578/), HQ preview",
+  "coins-cc0.wav": "Freesound #154410 \"Coins Dropping_1-2.aif\" by lucaslara — CC0 1.0 (https://freesound.org/people/lucaslara/sounds/154410/), HQ preview"
+ }
+}

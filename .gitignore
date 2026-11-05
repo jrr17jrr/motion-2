@@ -12,6 +12,8 @@ out/*
 
 # Cópia de trabalho SDR (derivada do .mov HDR) usada pelo Remotion — pesada, nunca versionar
 /video/plano-visionario-work/
+# Master da V3 é derivado (scripts/mix-pv-v3.py) e contém a narração original
+/video/assets/pv/v3/master-v3.wav
 
 build/
 .cache/
