@@ -1,0 +1,75 @@
+{
+ "hook-hit": {
+  "ms": 450,
+  "peakMs": 5.4
+ },
+ "title-swoosh": {
+  "ms": 420,
+  "peakMs": 212.7
+ },
+ "title-pop": {
+  "ms": 180,
+  "peakMs": 3.7
+ },
+ "price-blip": {
+  "ms": 220,
+  "peakMs": 64.6
+ },
+ "price-click": {
+  "ms": 160,
+  "peakMs": 46.2
+ },
+ "price-pop": {
+  "ms": 250,
+  "peakMs": 4.2
+ },
+ "count-roll": {
+  "ms": 1340,
+  "peakMs": 438.6
+ },
+ "count-land": {
+  "ms": 400,
+  "peakMs": 3.0
+ },
+ "strike-slash": {
+  "ms": 420,
+  "peakMs": 12.1
+ },
+ "exit-swoosh": {
+  "ms": 340,
+  "peakMs": 162.4
+ },
+ "cash-register": {
+  "ms": 1600,
+  "peakMs": 92.3,
+  "bellMs": 75
+ },
+ "offer-impact": {
+  "ms": 600,
+  "peakMs": 8.9
+ },
+ "offer-rise": {
+  "ms": 500,
+  "peakMs": 458.6
+ },
+ "bonus-sparkle": {
+  "ms": 700,
+  "peakMs": 93.9
+ },
+ "bonus-pop": {
+  "ms": 160,
+  "peakMs": 3.1
+ },
+ "bonus-swoosh": {
+  "ms": 360,
+  "peakMs": 228.5
+ },
+ "cta-rise": {
+  "ms": 600,
+  "peakMs": 534.9
+ },
+ "cta-hit": {
+  "ms": 900,
+  "peakMs": 6.8
+ }
+}

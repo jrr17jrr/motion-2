@@ -464,7 +464,12 @@ const allCards = [...cards, ...compareCards, ...bonus]
 
 const firstServiceStart = toFrame(services[0].start);
 
-export const PlanoVisionario: React.FC = () => {
+/**
+ * `soundtrack` replaces the V1 SFX layer (used by the V2 sound-design variant).
+ * `muteSource` exists only for QA stems (SFX-only bounce). With no props this
+ * renders exactly the V1 edit.
+ */
+export const PlanoVisionario: React.FC<{soundtrack?: React.ReactNode; muteSource?: boolean}> = ({soundtrack, muteSource}) => {
 	const f = useCurrentFrame();
 	const cam = cameraScale(f);
 	return (
@@ -472,7 +477,7 @@ export const PlanoVisionario: React.FC = () => {
 			<style>{`@font-face{font-family:Manrope;src:url('${staticFile('assets/fonts/Manrope.ttf')}') format('truetype');font-weight:200 800;font-display:block;}*{box-sizing:border-box;}`}</style>
 			<AbsoluteFill style={{transform: `scale(${cam.scale})`, transformOrigin: `50% ${cam.originY}%`}}>
 				{/* the original edit: image + voice + its own cuts/transitions, untouched */}
-				<OffthreadVideo src={staticFile(SOURCE)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+				<OffthreadVideo src={staticFile(SOURCE)} muted={muteSource} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
 			</AbsoluteFill>
 			{/* very light lower shade for legibility over bright pavement */}
 			<AbsoluteFill style={{background: 'linear-gradient(180deg, transparent 45%, rgba(0,0,0,.10) 62%, rgba(0,0,0,.22) 100%)'}} />
@@ -500,11 +505,12 @@ export const PlanoVisionario: React.FC = () => {
 				<CTA />
 			</AbsoluteFill>
 
-			{sfx.map((e, i) => (
-				<Sequence key={i} from={Math.max(0, e.at)} layout="none">
-					<Audio src={staticFile(`assets/pv/sfx/${e.file}.wav`)} volume={e.volume} />
-				</Sequence>
-			))}
+			{soundtrack ??
+				sfx.map((e, i) => (
+					<Sequence key={i} from={Math.max(0, e.at)} layout="none">
+						<Audio src={staticFile(`assets/pv/sfx/${e.file}.wav`)} volume={e.volume} />
+					</Sequence>
+				))}
 		</AbsoluteFill>
 	);
 };
