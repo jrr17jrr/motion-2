@@ -10,6 +10,9 @@ out/*
 # Vídeos locais para edição pelo Claude
 /videoParaEditar/
 
+# Cópia de trabalho SDR (derivada do .mov HDR) usada pelo Remotion — pesada, nunca versionar
+/video/plano-visionario-work/
+
 build/
 .cache/
 *.tsbuildinfo

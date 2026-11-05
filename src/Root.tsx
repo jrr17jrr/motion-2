@@ -9,6 +9,8 @@ import {OticaDescontaoV4} from './compositions/OticaDescontaoV4';
 import {duration as durationV4} from './v4/timeline';
 import {OticaDescontaoV5} from './compositions/OticaDescontaoV5';
 import {duration as durationV5} from './v5/timeline';
+import {PlanoVisionario} from './compositions/PlanoVisionario';
+import {DURATION as durationPV} from './pv/timeline';
 
 export const RemotionRoot = () => (
  <>
@@ -24,5 +26,6 @@ export const RemotionRoot = () => (
   <Composition id="OticaDescontaoMotionV3" component={OticaDescontaoV3} width={1080} height={1920} fps={30} durationInFrames={Math.ceil(metadata.durationSeconds * 30)}/>
   <Composition id="OticaDescontaoMotionV4" component={OticaDescontaoV4} width={1080} height={1920} fps={30} durationInFrames={durationV4}/>
   <Composition id="OticaDescontaoMotionV5" component={OticaDescontaoV5} width={1080} height={1920} fps={30} durationInFrames={durationV5}/>
- <Composition id="OticaDescontaoMotionV6" component={OticaDescontaoV6} durationInFrames={durationV6} fps={30} width={1080} height={1920}/></>
+ <Composition id="OticaDescontaoMotionV6" component={OticaDescontaoV6} durationInFrames={durationV6} fps={30} width={1080} height={1920}/>
+ <Composition id="PlanoVisionarioV1" component={PlanoVisionario} durationInFrames={durationPV} fps={30} width={1080} height={1920}/></>
 );
